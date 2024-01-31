@@ -23,9 +23,9 @@ conference:
   contact_email: "reactjsday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
-  title: "reactjsday 2023"
+  title: "reactjsday 2024"
   city: "Verona"
-  date: 2023-10-27T09:00+02:00
+  date: 2024-10-25T09:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -41,10 +41,10 @@ conference:
   update_visible: false
   update_is_warning: false
   update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_title: ""
+  update_description: "CFP is about to open, stay tuned!"
+  update_link_url: ""
+  update_link_label: ""
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: false
   cfp_readmore_label: "Read more"
@@ -56,10 +56,10 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "reactjsday 2023 is the 9th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.jsday.it/'>jsday</a> and <a href='https://www.phpday.it/'>phpday</a>.
-  <br> <br /> The event is international and all sessions will be in English.
-  <br> The event’s goal is to allow all React developers to meet and share experience while having fun and networking in an enjoyable context.
-  <br> <br /><b>reactjsday 2023 is happening in Verona and online on Friday, October 27th 2023.</b> The day before the conference (Thursday, 26th October) well host two <a href='https://2023.reactjsday.it/workshop/'>workshops.</a><br>"
+  geninfo_description: "<p><b>reactjsday 2024</b> is the 10th edition of the Italian React conference, organized by GrUSP, organizers of events like <a href='https://www.jsday.it/'>jsday</a> and <a href='https://www.phpday.it/'>phpday</a>.
+  <br> The event is international and all sessions will be in English.
+  <br> The event’s goal is to allow all React developers to meet and share experience while having fun and networking in an enjoyable context.</p>
+  <br> reactjsday 2024 is happening in <b>Verona (and online) on Friday, October 25th 2024.</b>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -90,28 +90,40 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text: "Here is the amazing lineup"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
-  topics_visible: false
+  topics_visible: true
   topics_title: "Topics and themes"
   topics_description: "We'll talk about..."
-  topics: ""
+  topics:
+    - "React Server Components"
+    - "SSR"
+    - "React Native"
+    - "Next.js"
+    - "Micro frontends"
+    - "Testing"
+    - "Accessibility"
+    - "Gatsby"
+    - "Preact"
+    - "Best prectices"
+    - "Modeul federation"
+    - "GraphQL"
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Buy tickets"
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
   media_visible: true
-  media_pic_1: "reactjsday22-4.png"
+  media_pic_1: "reactjsday22-5.jpeg"
   media_pic_2: "reactjsday22-3.jpeg"
-  media_pic_3: "reactjsday22-2.jpeg"
+  media_pic_3: "reactjsday22-6.jpeg"
   media_pic_4: "reactjsday22-1.jpeg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
@@ -134,7 +146,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Thanks for supporting reactjsday"
   # this is for the Community partners section in home page
   community_partners: true
@@ -164,6 +176,7 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
   past_editions_videos_pre: "Videos from the past editions are available on "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " and "
@@ -189,4 +202,4 @@ conference:
     tag_manager_id: "GTM-MBFCXJH"
   # Tito tickets
   tito:
-    event: grusp/reactjsday-2023
+    event: grusp/reactjsday-2024

@@ -46,11 +46,11 @@ conference:
   update_link_url: ""
   update_link_label: ""
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers closing soon!"
-  cfp_deadline: 2023-08-15T23:59+02:00
+  cfp_deadline: 2024-06-16T23:59+02:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component

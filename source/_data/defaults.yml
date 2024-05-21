@@ -56,7 +56,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "<p><b>reactjsday 2024</b> is the 10th edition of the Italian React conference, organized by <a href='https://www.grusp.org/'>GrUSP</a><br>&nbsp;
+  geninfo_description: "<p><b>reactjsday 2024</b> is the 10th edition of the Italian React conference, organized by <a href='https://www.grusp.org/'>GrUSP</a>.<br>&nbsp;
   <br>reactjsday is marking a decade of innovation and knowledge sharing in the React ecosystem. This premier conference gathers developers and enthusiasts to explore the latest advancements, best practices, and real-world applications of React. Whether you're a beginner eager to learn the fundamentals or an experienced developer looking for advanced techniques, reactjsday offers valuable insights and networking opportunities for everyone passionate about React. Join us to celebrate ten years of React excellence!
   <br>&nbsp;<br> The event is international and all sessions will be in English.
   <br> reactjsday 2024 is happening in <b>Verona (and online) on Friday, October 25th 2024.</b>"

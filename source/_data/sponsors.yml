@@ -1,4 +1,4 @@
-sponsors_block_title: ""
+sponsors_block_title: "Thanks for supporting reactjsday!"
 # main:
 #   sponsor1:
 #     name: ""
@@ -16,27 +16,31 @@ sponsors_block_title: ""
 #     site_url: ""
 gold:
   sponsor1:
+    name: "infobip"
+    logo_filename: "infobip.svg"
+    site_url: "https://www.infobip.com/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor0:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor4:
+  sponsor2:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor3:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor6:
-    name: "SiteGround"
-    logo_filename: "siteground.png"
-    site_url: "https://www.siteground.com/"
 bronze:
   sponsor2:
     name: "stickermule"
     logo_filename: "stickermule.svg"
-    site_url: "https://mule.to/p2gc"
+    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
 # diversity:
 #   sponsor1:
 #     name: "S"

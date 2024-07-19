@@ -9,14 +9,14 @@ workshops:
     ws_id: design-systems
     is_external: false
     page_uri: "workshop/design-systems.html"
-    page_title: "Workshop - The science of a button: introduzione ai design system per JS developer"
-    workshop_title: "The science of a button: introduzione ai design system per JS developer"
+    page_title: "Workshop - The science of a button: introduction to design system for JS developer"
+    workshop_title: "The science of a button: introduction to design system for JS developer"
     ticket_url: "https://2024.reactjsday.it/tickets/"
-    ticket_label: "Acquista il biglietto"
-    location_title: "Dove"
-    location: "Verona, Hotel San Marco"
+    ticket_label: "Get your ticket"
+    location_title: "Where"
+    location: "Verona, San Marco Hotel"
     # online_location: "online"
-    location_name: "Hotel San Marco"
+    location_name: "San Marco Hotel"
     # location_name: "The Internet"
     # location_contact_phone: "+045569011"
     # location_contact_email: "sanmarco@sanmarco.vr.it"
@@ -25,31 +25,31 @@ workshops:
     location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
     location_maps_label: "Get directions"
     # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
-    location_additional_info: "Il workshop si svolge in presenza, non è previsto streaming nè registrazione video"
-    whatandwhen_title: "Quando"
-    whatandwhen_additional_info: "Giovedì 24 Ottobre 2024, dalle 9:30 alle 17:30. Pause caffè e pranzo incluse."
+    location_additional_info: ""
+    whatandwhen_title: "When"
+    whatandwhen_additional_info: "Thursday 24 October 2024, from 9:30 to 17:30. Coffee breaks and lunch included."
     # whatandwhen_additional_info: "(informazioni aggiuntive se servono; cancellare valore se non servono)"
     date: 2024-10-24T09:30
     end_date: 2024-10-24T17:30
-    date_text: "Giovedì 24 Ottobre 2024, dalle 9:30 alle 17:30"
-    language_title: "Lingua"
-    language: "italian / italiano"
-    language_ext: "This workshop is in Italian language only"
-    language_additional_info: "This workshop is in Italian language only"
-    collab: "Workshop realizzato da <a href='https://apropos.srl'>Apropos</a>"
-    description: "[Workshop in Italian Language] Impara a progettare e implementare un design system scalabile e coeso"
-    description_long: "<b>Impara a progettare e implementare un design system scalabile e coeso</b>
-    <br> In questo workshop intensivo di una giornata, imparerai i principi fondamentali per la creazione di un design system efficace e come integrarlo con successo nel tuo team.
-    <br> Attraverso spiegazioni teoriche, esercitazioni pratiche e discussioni di gruppo, acquisirai competenze per progettare e implementare un design system che promuova la coerenza, la flessibilità e l’efficienza nel tuo flusso di lavoro e di sviluppo."
+    date_text: "Thursday 24 October 2024, from 9:30 to 17:30"
+    language_title: "Language"
+    language: "English"
+    language_ext: ""
+    language_additional_info: ""
+    collab: "Workshop organised with <a href='https://apropos.srl'>Apropos</a>"
+    description: "Learn to design and develop a scalable and consistent design system"
+    description_long: "<b>Learn to design and develop a scalable and consistent design system.</b>
+    <br> In this intensive one-day workshop, you will learn the fundamental principles for creating an effective design system and how to integrate it into your team.
+    <br> Through theoretical explanations, practical exercises, and group discussions, you will acquire skills to design and implement a design system that promotes consistency, flexibility, and efficiency in your workflow and development process."
     # video trailer?
     trailer: false
     trailer_url: ""
     # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-    teacher_title: "Docente"
+    teacher_title: "Teacher"
     teachers:
       teacher_1:
         teacher_name: "Filippo Gianessi"
-        teacher_bio: "Product designer, remote worker, agile enthusiast e appassionato di graphic design. Attualmente sono Senior Growth Product Designer @ YAZIO, e mentor presso il Contamination Lab di Faenza. Sono cresciuto tra il design industriale e lo sviluppo software. Mi occupo di mantenere le soluzioni semplici, scalabili e accessibili: nella progettazione, nel codice e nella strategia. Nel quotidiano mi puoi trovare in coworking a curare l'esperienza utente dei prodotti di Spreaker, in Clab o a qualche concerto sperduto in Romagna. Amo i design systems da tanto tempo, sicuramente dall'uscita del libro di Alla Kholmatova con la quale ho avuto l'occasione e fortuna di lavorare al primo workshop tenuto in Italia sui design systems (Bologna, 2018)."
+        teacher_bio: "Product designer, remote worker, agile enthusiast, and passionate about design. I am a Senior Growth Product Designer @ YAZIO and a startup mentor at the Contamination Lab in Faenza. I grew up around industrial design and software development. I keep solutions simple, scalable, and accessible in design, code, and strategy. Daily, you can find me in co-working spaces taking care of YAZIO's monetization and design system at Contamination Lab or some DIY concert in Romagna. I have loved design systems since then, especially after the release of Alla Kholmatova's book, with whom I had the opportunity and fortune to work on the first workshop held in Italy on design systems (Bologna, 2018)."
         pic_filename: "filippo-gianessi.png"
         teacher_role: "Senior Growth Product Designer"
         teacher_org: "YAZIO"
@@ -59,26 +59,26 @@ workshops:
       #   pic_filename: "pic2.jpg"
       #   teacher_role: "full stack developer"
       #   teacher_org: "AnotherAgency"
-    topics_title: "Argomenti che tratteremo"
+    topics_title: "Topics we will cover:"
     topics:
-      - "Introduzione ai design system e pattern funzionali e visivi"
-      - "Inventario dei componenti visivi e dei pattern funzionali"
-      - "Organizzazione modulare con Atomic Design e Tokens"
-      - "Introduzione alla creazione di un design system in Figma"
-      - "Implementazione dei token e componenti con React e CSS"
-      - "Ottimizzazione, documentazione e distribuzione del design system"
-    addressees_title: "A chi è rivolto e requisiti di partecipazione"
-    addressees_description: "Questo workshop è rivolto a developer, designer e professionisti/e del settore interessati a comprendere e implementare un design system efficace.
-    <br><br />È richiesta una conoscenza di base di HTML e CSS. Non sono richieste competenze avanzate di sviluppo o esperienza specifica con framework o strumenti di progettazione."
-    requirements_title: "Cosa ottieni partecipando"
+      - "Introduction to design systems and functional and visual patterns"
+      - "UI and purpose inventories"
+      - "Structure with Atomic Design and Tokens"
+      - "Creating a design system in Figma"
+      - "Design Tokens and how to integrate them with React"
+      - "Distribution and governance"
+    addressees_title: "Who it's for and participation requirements:"
+    addressees_description: "This workshop is for developers, designers, and industry professionals interested in learning and building an effective design system.
+    <br><br />A basic knowledge of HTML and CSS is helpful, but advanced development skills or specific experience with frameworks or design tools are not necessary."
+    requirements_title: "What you get:"
     requirements_description: "<ul>
-    <li>Comprensione dei principi fondamentali di progettazione di un design system;</li>
-    <li>Strumenti per analizzare interfacce già esistenti e organizzarle in componenti visivi coesi;</li>
-    <li>Esperienza pratica nell’utilizzo di Figma per la creazione e la comunicazione di un design system;</li>
-    <li>Strumenti per migliorare la gestione del codice e la comunicazione con il team di designer;</li>
-    <li>Conoscenze per ottimizzare, documentare e distribuire il design system.</li>
+    <li>Fundamental principles for building a design system;</li>
+    <li>Tools to analyze existing interfaces and refactor them;</li>
+    <li>Practical experience in using Figma for design systems;</li>
+    <li>Tools to ease code management and communication with the product team;</li>
+    <li>How to document and distribute design systems.</li>
     </ul>"
-    useful_info_title: "Informazioni utili"
-    useful_info_description: "Il workshop dura tutto il giorno. Pause caffè e pranzo sono incluse. Per partecipare occorre il relativo biglietto, venduto separatamente rispetto a quelli per la conferenza."
+    useful_info_title: "Helpful information:"
+    useful_info_description: "The workshop lasts a whole day, and coffee breaks and lunch are included. To participate, you need the dedicated ticket, which is sold separately from the conference tickets."
     # CTA
-    cta_title: "Riserva il tuo posto!"
+    cta_title: "Get your ticket"

@@ -22,7 +22,7 @@ more:
     <li><a href='https://uxday.it/' target=_blank><font color=white>uxday</font></a>
     <li><a href='https://containerday.it/' target=_blank><font color=white>containerday</font></a>
     <li><a href='https://devsecopsday.it/' target=_blank><font color=white>devsecopsday</font></a>
-    <!--li><a href='https://bettersoftware.it/' target=_blank><font color=white>Better Software</font></a-->
+    <li><a href='https://bettersoftware.it/' target=_blank><font color=white>Better Software</font></a>
     <li><a href='https://reactjsday.it/' target=_blank><font color=white>reactjsday</font></a>
     <li><a href='https://laravelday.it/' target=_blank><font color=white>laravelday</font></a>
     <li><a href='https://angularday.it/' target=_blank><font color=white>angularday</font></a>
@@ -32,7 +32,7 @@ more:
   content_2:
 past_edition:
   title: "Browse past editions of jsday"
-  video_url: "https://vimeo.com/showcase/9922451/embed"
+  video_url: "https://www.youtube.com/embed/videoseries?si=DgkDFr7r16CnUUOs&amp;list=PLWK9j6ps_unmdZSIm1lJOafQdNili3MMV"
   video_caption: "Watch the videos from the past editions"
 team:
   title: "Our team"

@@ -4,33 +4,29 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+speaker_1: &AuroraScharff
+  speaker_in_speaker_lists: true
+  speaker_name: Aurora Scharff
+  speaker_pic_filename: AuroraScharff.png
+  speaker_role: "Web Developer"
+  speaker_bio: "Aurora Walberg Scharff is a web developer from Norway. 
+  <br />She holds a bachelor's degree in Robotics and Intelligent Systems, with knowledge of engineering mathematics, robotics, algorithms, data structures, and computer architecture. After working for a couple of years at a financial technology startup, she continues developing as a consultant at Inmeta. 
+  <br /> Aurora is actively building with React Server Components in her current consultancy project and is eager to share her knowledge."
+  speaker_github_url: "https://github.com/aurorascharff"
+  speaker_twitter_url: "https://twitter.com/aurorascharff"
   speaker_instagram_url: ""
-  speaker_linkedin_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/aurora-scharff-a86b88188/"
   speaker_mastodon_url: ""
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *AuroraScharff
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
-
+  
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
 #   "service" -- coffee break, lunch break, etc
@@ -46,40 +42,34 @@ days:
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        # start_datetime: 2020-09-16T09:00
+        # end_datetime: 2020-09-16T09:30
         talk_title: "Check-in"
       talk_2:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
+        # start_datetime: 2022-05-19T13:00+02:00
+        # end_datetime: 2022-05-19T14:30+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
       happy-hour:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
+        # start_datetime: 2022-05-19T18:25+02:00
+        # end_datetime: 2022-05-19T19:30+02:00
         talk_title: "Happy Hour"
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      EnhancingFormsWithReactServerComponentsAndReact19:        
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Enhancing Forms with React Server Components and React 19"
+        talk_description: "In this talk, we explore the application of React Server Components (RSC) to elevate the functionality and efficiency of forms. 
+        <br />We will touch upon the core principles of RSC and their specific benefits for form development, such as improved load times and streamlined server-side processing.
+        <br /> Additionally, we’ll learn the latest advancements in React 19 and the introduction of multiple new hooks. <br /> <br />
+        Attendees will gain insights into practical strategies for integrating RSC into forms, focusing on enhancing user experience and reducing front-end complexities."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *AuroraScharff
+      

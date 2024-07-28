@@ -103,14 +103,11 @@ conference:
     - "SSR"
     - "React Native"
     - "Next.js"
-    - "Micro frontends"
+    - "System Design"
     - "Testing"
     - "Accessibility"
-    - "Gatsby"
-    - "Preact"
     - "Best practices"
-    - "Modeul federation"
-    - "GraphQL"
+
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden

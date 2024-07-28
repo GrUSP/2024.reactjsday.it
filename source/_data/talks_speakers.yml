@@ -83,10 +83,11 @@ speaker_5: &DaniColl
 
 speakers:
   speaker_1: *AuroraScharff
+  speaker_5: *DaniColl
+  speaker_4: *GabrielePetronella
   speaker_2: *MatteoManchi
   speaker_3: *JuliaUndeutsch
-  speaker_4: *GabrielePetronella
-  speaker_5: *DaniColl
+
 
 tracks:
   track_1: &track_1

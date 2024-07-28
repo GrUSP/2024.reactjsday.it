@@ -35,9 +35,26 @@ In his free time, he is the CEO of Impronta Advance, a trainer, a consultant on 
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_3: &JuliaUndeutsch
+  speaker_in_speaker_lists: true
+  speaker_name: Julia Undeutsch
+  speaker_pic_filename: JuliaUndeutsch.png
+  speaker_role: "Dev & UX Accessibility Specialist @ Atos| GDE"
+  speaker_bio: "I am Web & UX Accessibility Specialist at Atos Austria. <br />
+After graduating University in Musicology and Japanese Studies in summer 2020, I started learning front-end development and specialized in the topic of web accessibility early on. Since then, I take every opportunity to spread awareness on the topic by regularly creating content in form of writing blog articles and such.<br /><br />
+I have been certified by IAAP as a Professional in Accessibility Core Competencies (CPACC) in 2022 and got accepted in the Google Developer Expert Program in 2023."
+  speaker_github_url: "https://github.com/YuriDevAT"
+  speaker_twitter_url: "https://twitter.com/YuriDevAT"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/juliaundeutsch/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *AuroraScharff
   speaker_2: *MatteoManchi
+  speaker_3: *JuliaUndeutsch
 
 tracks:
   track_1: &track_1
@@ -104,4 +121,17 @@ days:
         talk_video_url:
         speakers:
           speaker_2: *MatteoManchi
+
+
+      AccessibilityInReactApplication:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Accessibility in React Application"
+        talk_description: "If you are familiar with accessibility in HTML and CSS, then you are good to go in a React application as well. 
+        <br />Most of the rules still apply, but you may need to write it a little differently, and consider other things in addition, which we will discuss in more detail in this talk."
+        talk_video_url:
+        speakers:
+          speaker_3: *JuliaUndeutsch
       

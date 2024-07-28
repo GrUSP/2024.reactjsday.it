@@ -65,11 +65,28 @@ speaker_4: &GabrielePetronella
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_5: &DaniColl
+  speaker_in_speaker_lists: true
+  speaker_name: Dani Coll
+  speaker_pic_filename: DaniColl.jpg
+  speaker_role: "Senior Frontend Engineer @ Dynatrace"
+  speaker_bio: "I’m a Frontend Senior Software Engineer for Platform Apps at Dynatrace. 
+  <br />I started my tech journey on a startup 8 years ago as a mobile developer, going through a couple more consultant companies in the process I found my place at Dynatrace on 2020. 
+  <br /> Moving out from the Product Owner role I took last year I embark the path as a Tech Evangelist and I’m eager to share the lessons I learned with all of you."
+  speaker_github_url: "https://github.com/dani-coll"
+  speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/daniel-coll-leal"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *AuroraScharff
   speaker_2: *MatteoManchi
   speaker_3: *JuliaUndeutsch
   speaker_4: *GabrielePetronella
+  speaker_5: *DaniColl
 
 tracks:
   track_1: &track_1
@@ -162,3 +179,16 @@ days:
         talk_video_url:
         speakers:
           speaker_4: *GabrielePetronella
+
+
+      MultithreadingInReactAGuideToWebWorkers:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Multithreading in React: A guide to Web Workers"
+        talk_description: "JavaScript as a single threaded language is unable to maximise the full potential of our CPUs, but there might be a solution: Web Workers. <br /> <br />
+Let's go into a demonstration of how you can add Web Workers into your React application to enable the run of processes in the background while leveraging its pros and cons."
+        talk_video_url:
+        speakers:
+          speaker_5: *DaniColl

@@ -108,6 +108,7 @@ conference:
     - "Testing"
     - "Accessibility"
     - "Best practices"
+    - "React compiler"
 
 
   topics_payoff: "...and much more!"

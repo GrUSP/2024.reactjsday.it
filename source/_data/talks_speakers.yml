@@ -98,6 +98,22 @@ speaker_6: &TimKumpat
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_7: &GiuseppeFunicello
+  speaker_in_speaker_lists: true
+  speaker_name: Giuseppe Funicello
+  speaker_pic_filename: GiuseppeFunicello.jpg
+  speaker_role: "Freelance Software Engineer - YouTuber"
+  speaker_bio: "I'm a nomad developer, working as a freelance software engineer while traveling around the world with my family.
+  <br />
+  I run a <a href=\"https://www.youtube.com/channel/UCuBRYcLPqSHQYgD44pfjRcg\"> Youtube channel </a> bout coding and developer-related stuff, building a wonderful community of passionate devs."
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+  speaker_instagram_url: "https://www.instagram.com/giuppidev/"
+  speaker_linkedin_url: "https://www.linkedin.com/in/giuseppe-funicello/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *AuroraScharff
   speaker_5: *DaniColl
@@ -105,6 +121,7 @@ speakers:
   speaker_2: *MatteoManchi
   speaker_3: *JuliaUndeutsch
   speaker_6: *TimKumpat
+  speaker_7: *GiuseppeFunicello
 
 
 tracks:
@@ -226,3 +243,16 @@ Let's go into a demonstration of how you can add Web Workers into your React app
         talk_video_url:
         speakers:
           speaker_6: *TimKumpat
+
+      TheMagicBehindTheReactCompiler:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "The magic behind the React compiler"
+        talk_description: "Every React developer is used to dealing with its render mechanism, trying to avoid unnecessary re-rendering using memoization techniques like useMemo and useCallback. But this will be a thing of the past thanks to the React compiler, a brand-new build tool that optimizes our app for us. 
+        <br /> <br />
+        In this talk, we will take a deep dive into how the React compiler works under the hood and how it will enhances our code cache management in many different ways."
+        talk_video_url:
+        speakers:
+          speaker_7: *GiuseppeFunicello

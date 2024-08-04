@@ -81,12 +81,30 @@ speaker_5: &DaniColl
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_6: &TimKumpat
+  speaker_in_speaker_lists: true
+  speaker_name: Tim Kumpat
+  speaker_pic_filename: TimKumpat.png
+  speaker_role: "Senior Frontend Engineer @ Dynatrace"
+  speaker_bio: "At the age of 13, I started teaching myself how to build websites. 
+  <br />At 15, I founded my first company Jump Webdesign (B2B Web development for clients). 
+  <br />At 17 I did a software engineering summer internship @ Nordcloud, an IBM company and also started the brand Jump Apps (B2C App development). 
+  <br /> <br />After my internship, I joined Nordcloud part-time. Currently, I'm in my last year of high school and work in addition to my normal school time up to 14 hours per day on either Jump Apps, Jump Webdesign, or Nordcloud."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/TimKumpat"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/timkumpat/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *AuroraScharff
   speaker_5: *DaniColl
   speaker_4: *GabrielePetronella
   speaker_2: *MatteoManchi
   speaker_3: *JuliaUndeutsch
+  speaker_6: *TimKumpat
 
 
 tracks:
@@ -193,3 +211,18 @@ Let's go into a demonstration of how you can add Web Workers into your React app
         talk_video_url:
         speakers:
           speaker_5: *DaniColl
+
+      SuperchargeYourReactSideProjectWithFirebase:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Supercharge your React side project with Firebase"
+        talk_description: "Have you ever built a side project or thought about building your own startup?
+          <br /><br />
+          One of the most important things is fast and secure development. And here comes Firebase in combination with React into the game. I will explain how Firebase + React allows me to run a software company at the age of 17 by myself and how you can leverage the tools provided by Firebase to have a better developer experience, more secure react apps, and faster results.
+          <br /><br />
+          All principles and technologies you will learn about in this talk can be applied immediately in your side projects!"
+        talk_video_url:
+        speakers:
+          speaker_6: *TimKumpat

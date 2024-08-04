@@ -101,6 +101,7 @@ conference:
   topics:
     - "React Server Components"
     - "SSR"
+    - "Firebase"
     - "React Native"
     - "Next.js"
     - "System Design"

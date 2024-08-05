@@ -9,14 +9,21 @@
   </url>
   
   <url>
-    <loc>https://2024.reactjsday.it/welcome/scholarships.html</loc>
+    <loc>https://2024.reactjsday.it/welcome/safety.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.reactjsday.it/workshop/workshop_2.html</loc>
+    <loc>https://2024.reactjsday.it/schedule/index.html</loc>
+    
+    <lastmod>2024-08-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.reactjsday.it/sponsor/index.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
@@ -24,13 +31,6 @@
   
   <url>
     <loc>https://2024.reactjsday.it/talks_speakers/index.html</loc>
-    
-    <lastmod>2024-08-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.reactjsday.it/workshop/design-systems.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
@@ -58,21 +58,7 @@
   </url>
   
   <url>
-    <loc>https://2024.reactjsday.it/welcome/where.html</loc>
-    
-    <lastmod>2024-08-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.reactjsday.it/welcome/coc.html</loc>
-    
-    <lastmod>2024-08-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.reactjsday.it/welcome/safety.html</loc>
+    <loc>https://2024.reactjsday.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
@@ -86,21 +72,28 @@
   </url>
   
   <url>
-    <loc>https://2024.reactjsday.it/sponsor/index.html</loc>
+    <loc>https://2024.reactjsday.it/welcome/coc.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.reactjsday.it/schedule/index.html</loc>
+    <loc>https://2024.reactjsday.it/welcome/scholarships.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.reactjsday.it/404.html</loc>
+    <loc>https://2024.reactjsday.it/workshop/design-systems.html</loc>
+    
+    <lastmod>2024-08-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.reactjsday.it/welcome/where.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     
@@ -108,6 +101,13 @@
   
   <url>
     <loc>https://2024.reactjsday.it/2019/08/19/test/</loc>
+    
+    <lastmod>2024-08-05</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.reactjsday.it/404.html</loc>
     
     <lastmod>2024-08-05</lastmod>
     

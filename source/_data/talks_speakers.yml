@@ -163,7 +163,28 @@ speaker_10: &MatheusAlbuquerque
   speaker_mastodon_url: ""
   is_mc: false
 
+speaker_11: &AlexandraSpalato
+  speaker_in_speaker_lists: true
+  speaker_name: Alexandra Spalato
+  speaker_pic_filename: AlexandraSpalato.png
+  speaker_role: "Independent AI Expert"
+  speaker_bio: "I'm a a Full-stack AI Developer and Product Maker based in Madrid. 
+  With a background spanning web development and business, she specializes in bridging AI innovation with beautiful design.
+  <br /> <br />
+        As an Indie Hacker, I create AI-powered applications and micro SaaS products.<br />
+        I offer AI-integrated web development, consulting, and custom AI systems for businesses. <br />
+        As an international speaker and instructor, I share my expertise in making AI approachable and effective. <br />
+        My mission is to create powerful, intuitive AI solutions that solve real-world problems."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/alexadark"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: "https://www.linkedin.com/in/alexandraspalato/"
+  speaker_mastodon_url: ""
+  is_mc: false
+
+
 speakers:
+  speaker_11: *AlexandraSpalato
   speaker_1: *AuroraScharff
   speaker_5: *DaniColl
   speaker_4: *GabrielePetronella
@@ -359,3 +380,22 @@ days:
         talk_video_url:
         speakers:
           speaker_8: *NicolaZaghini
+
+
+      
+      AIForReactDevelopersOpportunities,Learning,AndInnovation:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "AI for React Developers: Opportunities, Learning, and Innovation"
+        talk_description: "Artificial Intelligence (AI) is now a must-have in software development, and the demand for AI engineers is rising through the roof. As a React developer, it is a good chance to grow and expand. <br />
+        Many React developers might wonder: 'What do I need to know about AI? and do I have what it takes?''
+
+        <br /><br /> With AI reshaping industries, the pressure to adapt and expand our skillsets is palpable. The question isn't just about staying relevant; it's about seizing unprecedented opportunities in development and automation.
+        What if learning AI could help you do more with React? <br />Think about using AI to help with coding, or to make smarter apps faster. This talk will show you how to start.
+        in this talk, we'll demystify the role of an AI engineer and outline the essential skills React developers need to transition into this evolving field.
+        <br /> <br />You'll leave knowing how to use AI in your React projects and the exciting things you can do with it. Whether it's getting a new job or making your own AI-driven apps, there's a lot to look forward to for React developers who are ready to learn AI."
+        talk_video_url:
+        speakers:
+          speaker_11: *AlexandraSpalato

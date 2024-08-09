@@ -145,6 +145,24 @@ speaker_9: &JepserBernardino
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_10: &MatheusAlbuquerque
+  speaker_in_speaker_lists: true
+  speaker_name: Matheus Albuquerque
+  speaker_pic_filename: MatheusAlbuquerque.jpg
+  speaker_role: "Senior FE EngineerFront-End @ Medallia - GDE"
+  speaker_bio: "I'm a Sr. Front-End Engineer at Medallia, building their surveys platform and helping them shape the customer experience market with React and a Google Developer Expert in Web Performance.
+  <br /> <br /> 
+  My areas of interest include React and its ecosystem, JS and compile-to-JS languages, DX, and perceived performance optimization. 
+  <br /><br />
+  Aside from public speaking about these, I also volunteers at TechLabs, teaching front-end development."
+  speaker_github_url: "https://github.com/ythecombinator"
+  speaker_twitter_url: "https://twitter.com/ythecombinator"
+  speaker_instagram_url: "https://www.instagram.com/ythecombinator"
+  speaker_linkedin_url: "https://www.linkedin.com/in/ythecombinator"
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *AuroraScharff
   speaker_5: *DaniColl
@@ -152,6 +170,7 @@ speakers:
   speaker_7: *GiuseppeFunicello
   speaker_9: *JepserBernardino
   speaker_3: *JuliaUndeutsch
+  speaker_10: *MatheusAlbuquerque
   speaker_2: *MatteoManchi
   speaker_8: *NicolaZaghini
   speaker_6: *TimKumpat
@@ -215,7 +234,7 @@ days:
         # end_datetime: 2022-05-19T10:25+02:00
         talk_title: "Multithreading in React: A guide to Web Workers"
         talk_description: "JavaScript as a single threaded language is unable to maximise the full potential of our CPUs, but there might be a solution: Web Workers. <br /> <br />
-Let's go into a demonstration of how you can add Web Workers into your React application to enable the run of processes in the background while leveraging its pros and cons."
+          Let's go into a demonstration of how you can add Web Workers into your React application to enable the run of processes in the background while leveraging its pros and cons."
         talk_video_url:
         speakers:
           speaker_5: *DaniColl
@@ -263,7 +282,6 @@ Let's go into a demonstration of how you can add Web Workers into your React app
           speaker_9: *JepserBernardino
 
 
-
       AccessibilityInReactApplication:
         item_type: "talk"
         track: *track_1
@@ -276,6 +294,24 @@ Let's go into a demonstration of how you can add Web Workers into your React app
         speakers:
           speaker_3: *JuliaUndeutsch
       
+      ADecadeReactsRhapsodyOfLife:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "A Decade React's Rhapsody of Life"
+        talk_description: "Join me in celebrating the decade-long journey of React—a framework that has revolutionized front-end development.
+          <br /> <br />
+          Despite all the initial skepticism around aspects like JSX, it became one of our favorite tools. We'll explore this and other 'trouble in paradise' moments!
+          <br /> <br />
+          Looking ahead, we'll discuss ongoing efforts like the Activity component, optimistic state updates, and more advanced stuff, like the optimization compiler and the recent improvements to React Native's JS engine.
+          <br /> <br />
+          Let's embrace a decade of React and the endless possibilities it holds!"    
+        talk_video_url:
+        speakers:
+          speaker_10: *MatheusAlbuquerque
+
+
       DoFrontendDevsDreamOfBackendFunctions:
         item_type: "talk"
         track: *track_1

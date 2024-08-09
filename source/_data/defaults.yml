@@ -100,6 +100,7 @@ conference:
   topics_description: "We'll talk about..."
   topics:
     - "React Server Components"
+    - AI
     - "SSR"
     - "Firebase"
     - "React Native"
@@ -109,6 +110,7 @@ conference:
     - "Accessibility"
     - "Best practices"
     - "React compiler"
+    - "State management"
 
 
   topics_payoff: "...and much more!"

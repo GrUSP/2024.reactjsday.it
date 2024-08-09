@@ -131,11 +131,26 @@ speaker_8: &NicolaZaghini
   speaker_mastodon_url: ""
   is_mc: false
 
+
+speaker_9: &JepserBernardino
+  speaker_in_speaker_lists: true
+  speaker_name: Jepser Bernardino
+  speaker_pic_filename: JepserBernardino.png
+  speaker_role: "Staff Software engineer @ Maze"
+  speaker_bio: "I'm a Software engineer from Guatemala working at Maze. Previously at Badi and Typeform"
+  speaker_github_url: "https://github.com/jepser"
+  speaker_twitter_url: "https://twitter.com/jepser"
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
+  is_mc: false
+
 speakers:
   speaker_1: *AuroraScharff
   speaker_5: *DaniColl
   speaker_4: *GabrielePetronella
   speaker_7: *GiuseppeFunicello
+  speaker_9: *JepserBernardino
   speaker_3: *JuliaUndeutsch
   speaker_2: *MatteoManchi
   speaker_8: *NicolaZaghini
@@ -232,6 +247,22 @@ Let's go into a demonstration of how you can add Web Workers into your React app
         talk_video_url:
         speakers:
           speaker_7: *GiuseppeFunicello
+
+
+      TheStateManagementRollercoaster:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "The State Management Rollercoaster"
+        talk_description: "Follow me in a real use case of Apollo and Redux Toolkit. 
+        <br /> <br />
+        A look at the challenges, wins and discoveries we had during one of our most ambitious projects, the migration of Results at Maze, an app the helps user researchers to collect insights and helps them to launch products with more confidence."
+        talk_video_url:
+        speakers:
+          speaker_9: *JepserBernardino
+
+
 
       AccessibilityInReactApplication:
         item_type: "talk"

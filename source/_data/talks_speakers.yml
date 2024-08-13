@@ -182,8 +182,24 @@ speaker_11: &AlexandraSpalato
   speaker_mastodon_url: ""
   is_mc: false
 
+  speaker_12: &AndreaZilibotti
+    speaker_in_speaker_lists: true
+    speaker_name:  Andrea Zilibotti
+    speaker_pic_filename: AndreaZilibotti.png
+    speaker_role: "Senior UX Engineer @ Musixmatch"
+    speaker_bio: "I'm passionate about user interfaces and design systems, in my experience I have always played on the fine line between design and engineering, trying to learn as much as possible from both worlds. <br /> br />
+        When I'm not working on my MacBook, I love playing music and discovering new places by getting lost in the world."
+    speaker_github_url: ""
+    speaker_twitter_url: ""
+    speaker_instagram_url: ""
+    speaker_linkedin_url: "https://www.linkedin.com/in/andreazilibotti"
+    speaker_mastodon_url: ""
+    is_mc: false
+    
+
 
 speakers:
+  speaker_12: *AndreaZilibotti
   speaker_11: *AlexandraSpalato
   speaker_1: *AuroraScharff
   speaker_5: *DaniColl
@@ -234,6 +250,22 @@ days:
         service_icon: "glass"
 
       # talk
+      HowToBuildCrossPlatformDesignSystemsInReactNativeMusixmatch’sCaseStudy:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "How to build cross-platform design systems in React Native: Musixmatch’s case study"
+        talk_description: "Nowadays, it’s quite common to use a design system to speed up the development of web interfaces. 
+        <br />Depending on the needs of a company and its products, however, it may be necessary to scale it to other platforms such as iOS and Android, while still maintaining consistency across all of them. 
+        <br />How can a design system scale across multiple platforms while keeping the codebase easy to manage? What should the entire tech-stack look like to support this? And most importantly, how can the user experience be consistent despite each platform having different standard components? 
+        <br /> <br /> We will show how we answered to these questions by presenting Ritmo, the Musixmatch’s cross-platform design system we developed in React Native."
+        talk_video_url:
+        speakers:
+          speaker_12: *AndreaZilibotti
+
+
+
       EnhancingFormsWithReactServerComponentsAndReact19:        
         item_type: "talk"
         track: *track_1

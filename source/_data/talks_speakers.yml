@@ -195,6 +195,23 @@ speaker_11: &AlexandraSpalato
     speaker_linkedin_url: "https://www.linkedin.com/in/andreazilibotti"
     speaker_mastodon_url: ""
     is_mc: false
+
+  speaker_13: &KellyKing
+    speaker_in_speaker_lists: true
+    speaker_name: Kelly King
+    speaker_pic_filename: KellyKing.png
+    speaker_role: "Software Engineer @ Tumblr"
+    speaker_bio: "I’m a software engineer currently crafting the web at Tumblr. Before that, I spent eight years working on twitter.com, and have a passion for creating fun, user-centric applications that make the web a more delightful place.
+    <br /> <br />
+    I’ve been an organizer of JSConf Hawai’i, Write/Speak/Code, and WaffleJS in San Francisco. These experiences fueled my commitment to promoting diversity in tech and creating spaces where developers can learn, connect, and thrive.
+    <br /> <br />
+    When I’m not tinkering with code, you’ll likely find me crocheting or hitting the trails with my Boston Terrier, Freya—my favorite hiking buddy."
+    speaker_github_url: "https://github.com/kellyk"
+    speaker_twitter_url: "https://x.com/kng"
+    speaker_instagram_url: "https://www.instagram.com/kelly.danielle.king"
+    speaker_linkedin_url: "https://www.linkedin.com/in/kellydanielleking/"
+    speaker_mastodon_url: ""
+    is_mc: false
     
 
 
@@ -207,6 +224,7 @@ speakers:
   speaker_7: *GiuseppeFunicello
   speaker_9: *JepserBernardino
   speaker_3: *JuliaUndeutsch
+  speaker_13: *KellyKing
   speaker_10: *MatheusAlbuquerque
   speaker_2: *MatteoManchi
   speaker_8: *NicolaZaghini
@@ -346,6 +364,22 @@ days:
         talk_video_url:
         speakers:
           speaker_3: *JuliaUndeutsch
+
+
+      ElevateYourReactWorkflowWithFigma:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T09:30+02:00
+        # end_datetime: 2022-05-19T10:25+02:00
+        talk_title: "Elevate your React workflow with Figma"
+        talk_description: "Learn how even the most seasoned front end developers can improve their workflows by harnessing the power of Figma! 
+        <br />In this talk, we'll cover essential workflows such as navigating large and evolving files, extracting content and styles, as well as a deep dive into Figma's developer mode. 
+        <br />We’ll learn how variables and components work in Figma and how they can act as a shared language and source of truth for your component library. We’ll see how to prototype directly in Figma (and discuss why you might want to!). Plus, we'll explore some great plugins that can enhance your developer workflow. 
+        <br /> <br />
+        Whether you’re new to Figma or looking to deepen your skills, this session will provide a range of tips to boost your productivity."
+        talk_video_url:
+        speakers:
+          speaker_13: *KellyKing
       
       ADecadeReactsRhapsodyOfLife:
         item_type: "talk"

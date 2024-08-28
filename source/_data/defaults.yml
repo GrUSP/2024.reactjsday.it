@@ -100,12 +100,13 @@ conference:
   topics_description: "We'll talk about..."
   topics:
     - "React Server Components"
-    - AI
+    - "AI"
     - "SSR"
     - "Firebase"
     - "Design System"
     - "React Native"
     - "Next.js"
+    - "Figma"
     - "System Design"
     - "Testing"
     - "Accessibility"

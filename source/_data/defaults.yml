@@ -57,9 +57,10 @@ conference:
   geninfo_visible: true
   geninfo_title: "What is it?"
   geninfo_description: "<p><b>reactjsday 2024</b> is the 10th edition of the Italian React conference, organized by <a href='https://www.grusp.org/'>GrUSP</a>.<br>&nbsp;
-  <br>reactjsday is marking a decade of innovation and knowledge sharing in the React ecosystem. This premier conference gathers developers and enthusiasts to explore the latest advancements, best practices, and real-world applications of React. Whether you're a beginner eager to learn the fundamentals or an experienced developer looking for advanced techniques, reactjsday offers valuable insights and networking opportunities for everyone passionate about React. Join us to celebrate ten years of React excellence!
+  <br>reactjsday is marking a decade of innovation and knowledge sharing in the React ecosystem. This premier conference gathers developers and enthusiasts to explore the <b>latest advancements, best practices, and real-world applications of React</b>. Whether you're a beginner eager to learn the fundamentals or an experienced developer looking for advanced techniques, reactjsday offers <b>valuable insights and networking opportunities</b> for everyone passionate about React. Join us to celebrate ten years of React excellence!
   <br>&nbsp;<br> The event is international and all sessions will be in English.
-  <br> reactjsday 2024 is happening in <b>Verona (and online) on Friday, October 25th 2024.</b>"
+  <br> reactjsday 2024 is happening in <b>Verona (and online) on Friday, October 25th 2024.</b>
+  <br> The day before the conference, we'll host the <b>workshop</b> <a href='https://2024.reactjsday.it/workshop/design-systems.html'>The science of a button: introduction to design system for JS developer.</a> "
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -93,7 +94,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: "meet our first speakers (more to come):"
+  speaker_count_text: "meet our amazing speakers!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"

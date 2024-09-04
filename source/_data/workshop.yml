@@ -82,3 +82,102 @@ workshops:
     useful_info_description: "The workshop lasts a whole day, and coffee breaks and lunch are included. To participate, you need the dedicated ticket, which is sold separately from the conference tickets."
     # CTA
     cta_title: "Get your ticket"
+
+
+  react_performance:
+    ws_id: react_performance
+    is_external: false
+    page_uri: "workshop/react_performance.html"
+    page_title: "Unleashing NextJS/React Performance & Resiliency: A Practical & Pragmatic Workshop for Developers"
+    workshop_title: "Unleashing NextJS/React Performance & Resiliency: A Practical & Pragmatic Workshop for Developers"
+    ticket_url: "https://2024.reactjsday.it/tickets/"
+    ticket_label: "Get your ticket"
+    location_title: "Where"
+    location: "Verona, San Marco Hotel"
+    # online_location: "online"
+    location_name: "San Marco Hotel"
+    # location_name: "The Internet"
+    # location_contact_phone: "+045569011"
+    # location_contact_email: "sanmarco@sanmarco.vr.it"
+    location_contact_url: "https://www.sanmarco.vr.it/"
+    location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
+    location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+    location_maps_label: "Get directions"
+    # location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
+    location_additional_info: ""
+    whatandwhen_title: "When"
+    whatandwhen_additional_info: "Thursday 24 October 2024, from 9:30 to 17:30. Coffee breaks and lunch included."
+    # whatandwhen_additional_info: "(informazioni aggiuntive se servono; cancellare valore se non servono)"
+    date: 2024-10-24T09:30
+    end_date: 2024-10-24T17:30
+    date_text: "Thursday 24 October 2024, from 9:30 to 17:30"
+    language_title: "Language"
+    language: "English"
+    language_ext: ""
+    language_additional_info: ""
+    collab: "Workshop organised with <a href='https://apropos.srl'>Apropos</a>"
+    description: "Getting pragmatic with building performant and resilient React applications"
+    description_long: "<b>Getting pragmatic with building performant and resilient React applications.</b>
+    <br> This workshop will delve into React and NextJs to create <b>scalable, high-performance web applications</b> made for the real world, exploring architectural patterns, rendering techniques, and optimization strategies.
+    <br> We'll tackle <b>data fetching management, performance measurement, and state management,</b> offering tools and insights for efficient coding and stakeholder communication.
+    <br> <b>Practical exercises and real-world examples</b> will equip developers with the skills to build and maintain solid web solutions, additionally, emphasizing the importance of observability and monitoring post-deployment
+    <br><br />"
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Teacher"
+    teachers:
+      teacher_1:
+        teacher_name: "Faris Aziz"
+        teacher_bio: "Faris comes from a boot camp and self-taught background, having contributed to open-source projects in his spare time. His passion for technology extends beyond coding; he loves consulting on web projects and aiding start-ups with technical strategy. He has grown his expertise in web architectures and frontend codebases. Additionally, his experience includes managing large-scale software teams, which has been a significant part of his career development.
+<br>Having worked in many industries, including Connected TV, Fintech, Digital Asset Management, SaaS, and Fitness, Faris has found his niche in start-ups. The ownership, opportunities, and exposure that come with early-stage companies have always resonated with him, driving his passion and commitment to the tech industry.
+<br>Some of Faris's previous work has revolved around building large-scale full-stack solutions for notable companies like Fiit, Discovery, GCN, Eurosport, Navro (formerly Paytrix) and SmallPDF, serving millions of users globally. This experience has not only honed his technical skills but also deepened his understanding of the importance of user-centric design and performance in software development.
+<br>Over time, Faris has specialized in frontend technologies, particularly React and NextJs. His focus has been on creating resilient, performant, and maintainable applications that meet and exceed the expectations of both users and developers."
+        pic_filename: "Faris-Aziz.jpg"
+        teacher_role: "Staff Frontend Engineer & Engineering Manager"
+        teacher_org: "faziz-dev.com"
+      # teacher_2:
+      #   teacher_name: "Another Teacher"
+      #   teacher_bio: "This is the other speaker's bio. Lorem ipsum dolor sic amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And so on."
+      #   pic_filename: "pic2.jpg"
+      #   teacher_role: "full stack developer"
+      #   teacher_org: "AnotherAgency"
+    topics_title: "Topics we will cover:"
+    topics:
+      - "Web Performance Pitfalls & Balancing Pragmatism"
+      - "Software Resilience Patterns"
+      - "Diving Deep into React Reconciliation"
+      - "Managing Component Architecture"
+      - "Case Study - Data Fetching at Scale (feat. React Query)"
+      - "Post deployment - Observability/Monitoring & Feature Flags"
+      - "Coding Labs"
+    addressees_title: "Who it's for and participation requirements:"
+    addressees_description: "This workshop is designed for developers who are:
+    <ul>
+    <li><b>Front-End Engineers:</b> Whether you’re just starting or have been in the game for years, this workshop will enhance your understanding of React and NextJS performance & Resilience.
+    <li><b>Technical Leads and Engineering Managers:</b> Learn how to guide your team in making informed decisions about architectural patterns and performance strategies.
+    </ul>
+    <br><br /><b>Participation Requirements</b>
+    <br>To get the most out of this workshop, participants should have:
+    <ul>
+    <li><b>Intermediate Understanding of JavaScript:</b> Familiarity with ES6+ syntax and JavaScript fundamentals.
+    <li><b>Working Knowledge of React:</b> You should be comfortable building basic applications in React and understand core concepts like hooks and component lifecycle.
+    <li><b>Experience with Production Applications:</b> You should have worked on at least one production user facing web application. Having experienced the challenges that come along with continuously developing and scaling them.
+    <li><b>Laptop with Node.js Installed:</b> You will need a laptop with the latest LTS version of Node.js installed to participate in the hands-on coding labs.
+    </ul>"
+    requirements_title: "What you get:"
+    requirements_description: "
+    By attending this workshop, participants will:
+    <ul>
+    <li><b>Gain a Deeper Understanding of React Reconciliation:</b> Walk away with a comprehensive grasp of how React manages reconciliation and the building blocks of how your UI gets rendered. Understand the nuances of component updates and rendering behavior to optimize performance effectively.
+	    <li><b>Hands-On Experience through Coding Labs:</b> Dive into practical coding labs where you’ll engage with real-world problem spaces related to the topics we explore. Get your hands dirty, experiment with code, and gain new perspectives through guided solution walkthroughs, enhancing your ability to tackle similar challenges in your projects.
+	    <li><b>Learn Pragmatic Performance Optimization:</b> Develop a better working understanding of how to make informed, pragmatic decisions regarding performance optimizations. Learn when it’s beneficial to optimize for performance and when it might be over-engineering, enabling you to focus your efforts where they matter most.
+	    <li><b>Explore Resilience and Monitoring in Production:</b> Understand the various pitfalls that can occur when an application is live in production. Learn strategies to build resilience into your applications, ensuring they can handle unexpected issues gracefully. Gain insights into monitoring best practices to keep an eye on your application’s health and performance post-deployment.
+	    <li><b>Access Comprehensive Learning Materials:</b> Receive workshop slides, detailed notes, and code samples that cover all discussed topics, serving as valuable references for future projects.
+      </li>
+      </ul>"
+    useful_info_title: "Helpful information:"
+    useful_info_description: "The workshop lasts a whole day, and coffee breaks and lunch are included. To participate, you need the dedicated ticket, which is sold separately from the conference tickets."
+    # CTA
+    cta_title: "Get your ticket"

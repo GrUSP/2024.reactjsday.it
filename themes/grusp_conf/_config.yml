@@ -12,11 +12,12 @@ menu:
   # scommentare per generare pagina
   # schedule: schedule
   # menu item for workshop
-  workshop: workshop
+  workshop: workshops
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-  design-systems: Workshop Design Systems
+  design-systems: "Introduction to design system"
+  react_performance: "NextJS/React Performance & Resiliency"
 
 # welcome submenu
 welcome_submenu:

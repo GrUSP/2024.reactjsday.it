@@ -4,18 +4,20 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &AuroraScharff
+speaker_1: &KawtarChoubari
   speaker_in_speaker_lists: true
-  speaker_name: Aurora Scharff
-  speaker_pic_filename: AuroraScharff.png
-  speaker_role: "Web Developer"
-  speaker_bio: "Aurora Walberg Scharff is a web developer from Norway. 
-  <br />She holds a bachelor's degree in Robotics and Intelligent Systems, with knowledge of engineering mathematics, robotics, algorithms, data structures, and computer architecture. After working for a couple of years at a financial technology startup, she continues developing as a consultant at Inmeta. 
-  <br /> Aurora is actively building with React Server Components in her current consultancy project and is eager to share her knowledge."
-  speaker_github_url: "https://github.com/aurorascharff"
-  speaker_twitter_url: "https://twitter.com/aurorascharff"
-  speaker_instagram_url: ""
-  speaker_linkedin_url: "https://www.linkedin.com/in/aurora-scharff-a86b88188/"
+  speaker_name: Kawtar Choubari
+  speaker_pic_filename: KawtarChoubari.jpg
+  speaker_role: "TypeScript Developer @ Alobees"
+  speaker_bio: "I'm a Full-Time Software Engineer, where my passion for Front-End development shines through my expertise in JavaScript, TypeScript, ReactJS, and Next.js. 
+  <br /> <br />
+  I also thrives as a part-time Content Creator, YouTuber, and Open Source Contributor, creating educational content that reflects my love for frontend technologies. 
+  <br />
+  <br />Dedicated to community enrichment, I contribute to tech events and delivers impactful workshops and hands-on labs on my expertise."
+  speaker_github_url: "https://github.com/choubari"
+  speaker_twitter_url: "https://twitter.com/choubari_"
+  speaker_instagram_url: "https://instagram.com/choubari_"
+  speaker_linkedin_url: "https://www.linkedin.com/in/choubari/"
   speaker_mastodon_url: ""
   is_mc: false
 
@@ -218,7 +220,7 @@ speaker_11: &AlexandraSpalato
 speakers:
   speaker_12: *AndreaZilibotti
   speaker_11: *AlexandraSpalato
-  speaker_1: *AuroraScharff
+  speaker_1: *KawtarChoubari
   speaker_5: *DaniColl
   speaker_4: *GabrielePetronella
   speaker_7: *GiuseppeFunicello
@@ -282,21 +284,22 @@ days:
         speakers:
           speaker_12: *AndreaZilibotti
 
-
-
-      EnhancingFormsWithReactServerComponentsAndReact19:        
+      ReactServerComponents101:        
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T09:30+02:00
         # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Enhancing Forms with React Server Components and React 19"
-        talk_description: "In this talk, we explore the application of React Server Components (RSC) to elevate the functionality and efficiency of forms. 
-        <br />We will touch upon the core principles of RSC and their specific benefits for form development, such as improved load times and streamlined server-side processing.
-        <br /> Additionally, we’ll learn the latest advancements in React 19 and the introduction of multiple new hooks. <br /> <br />
-        Attendees will gain insights into practical strategies for integrating RSC into forms, focusing on enhancing user experience and reducing front-end complexities."
+        talk_title: "React Server Components 101"
+        talk_description: "React Server Components (RSC), first introduced as an RFC (Request For Comments) in December 2020, is shaping up to be a big change for React and the way we build web apps.
+        <br /> <br />
+          In this talk, we will discover React Server Components (RSC), an exciting new feature that will have huge implications on page load performance, bundle size, and how we write React applications in the near future.
+          <br /> <br />
+          We'll explore RSC's architecture and its core concepts, along with practical use-cases illustrating RSC implementation and benefits.
+          <br /> <br />
+          You will learn how to write tomorrow's React Applications with Server Components and understand in depth what the React team has been working on."
         talk_video_url:
         speakers:
-          speaker_1: *AuroraScharff
+          speaker_1: *KawtarChoubari
 
       MultithreadingInReactAGuideToWebWorkers:
         item_type: "talk"

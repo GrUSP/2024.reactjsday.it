@@ -26,10 +26,10 @@ speaker_2: &MatteoManchi
   speaker_name: Matteo Manchi
   speaker_pic_filename: MatteoManchi.png
   speaker_role: "CEO @ Impronta Advance"
-  speaker_bio: "Matteo is a community-addicted enthusiast from the very beginning: since its founding in 2013, he has been the community manager of RomaJS, dedicating part of his time to creating environments for sharing and technical dissemination. 
-  <br />He loves JavaScript in all its forms, as well as PHP.
+  speaker_bio: "I am a community-addicted enthusiast from the very beginning: since its founding in 2013, I have been the community manager of RomaJS, dedicating part of my time to creating environments for sharing and technical dissemination. 
+  <br />I loves JavaScript in all its forms, as well as PHP.
 <br /> <br />
-In his free time, he is the CEO of Impronta Advance, a trainer, a consultant on web architectures, a speaker, and in his spare time, he studies and experiments live on Twitch."
+In my free time, he is the CEO of Impronta Advance, a trainer, a consultant on web architectures, a speaker, and in my spare time, I study and experiments live on Twitch."
   speaker_github_url: ""
   speaker_twitter_url: "https://x.com/matteomanchi"
   speaker_instagram_url: ""

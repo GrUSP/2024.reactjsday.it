@@ -237,6 +237,9 @@ tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
+  track_2: &track_2
+    id: 2
+    title: "Track 2"
   
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -248,147 +251,27 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2024-10-25T09:00+02:00
     title: "Day 1"
     talks:
-      talk_1:
+      checkin:
         item_type: "service"
-        # start_datetime: 2020-09-16T09:00
-        # end_datetime: 2020-09-16T09:30
+        start_datetime: 2024-10-25T09:00+02:00
+        end_datetime: 2024-10-25T09:30+02:00
         talk_title: "Check-in"
-      talk_2:
+
+      opening:
         item_type: "service"
-        # start_datetime: 2022-05-19T13:00+02:00
-        # end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      happy-hour:
-        item_type: "service"
-        # start_datetime: 2022-05-19T18:25+02:00
-        # end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
-
-      # talk
-      HowToBuildCrossPlatformDesignSystemsInReactNativeMusixmatch’sCaseStudy:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "How to build cross-platform design systems in React Native: Musixmatch’s case study"
-        talk_description: "Nowadays, it’s quite common to use a design system to speed up the development of web interfaces. 
-        <br />Depending on the needs of a company and its products, however, it may be necessary to scale it to other platforms such as iOS and Android, while still maintaining consistency across all of them. 
-        <br />How can a design system scale across multiple platforms while keeping the codebase easy to manage? What should the entire tech-stack look like to support this? And most importantly, how can the user experience be consistent despite each platform having different standard components? 
-        <br /> <br /> We will show how we answered to these questions by presenting Ritmo, the Musixmatch’s cross-platform design system we developed in React Native."
-        talk_video_url:
-        speakers:
-          speaker_12: *AndreaZilibotti
-
-      ReactServerComponents101:        
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "React Server Components 101"
-        talk_description: "React Server Components (RSC), first introduced as an RFC (Request For Comments) in December 2020, is shaping up to be a big change for React and the way we build web apps.
-        <br /> <br />
-          In this talk, we will discover React Server Components (RSC), an exciting new feature that will have huge implications on page load performance, bundle size, and how we write React applications in the near future.
-          <br /> <br />
-          We'll explore RSC's architecture and its core concepts, along with practical use-cases illustrating RSC implementation and benefits.
-          <br /> <br />
-          You will learn how to write tomorrow's React Applications with Server Components and understand in depth what the React team has been working on."
-        talk_video_url:
-        speakers:
-          speaker_1: *KawtarChoubari
-
-      MultithreadingInReactAGuideToWebWorkers:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Multithreading in React: A guide to Web Workers"
-        talk_description: "JavaScript as a single threaded language is unable to maximise the full potential of our CPUs, but there might be a solution: Web Workers. <br /> <br />
-          Let's go into a demonstration of how you can add Web Workers into your React application to enable the run of processes in the background while leveraging its pros and cons."
-        talk_video_url:
-        speakers:
-          speaker_5: *DaniColl
-
-      DesignSystemsAdventuresWithReactAndTypeScript:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Design systems adventures with React and TypeScript"
-        talk_description: "Creating a Design System is a challenge that involves many different disciplines. 
-        <br /> <br />In this talk, we will specifically explore the technical aspects and see which tools can help implement a React Design System. <br /> 
-        During the talk, we will also look at a concrete use case: the Bento Design System, created and maintained by buildo (https://bento-ds.com)"
-        talk_video_url:
-        speakers:
-          speaker_4: *GabrielePetronella
+        start_datetime: 2024-10-25T09:30+02:00
+        end_datetime: 2024-10-25T09:45+02:00
+        talk_title: "Opening by GrUSP"
 
 
-
-      TheMagicBehindTheReactCompiler:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "The magic behind the React compiler"
-        talk_description: "Every React developer is used to dealing with its render mechanism, trying to avoid unnecessary re-rendering using memoization techniques like useMemo and useCallback. But this will be a thing of the past thanks to the React compiler, a brand-new build tool that optimizes our app for us. 
-        <br /> <br />
-        In this talk, we will take a deep dive into how the React compiler works under the hood and how it will enhances our code cache management in many different ways."
-        talk_video_url:
-        speakers:
-          speaker_7: *GiuseppeFunicello
-
-
-      TheStateManagementRollercoaster:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "The State Management Rollercoaster"
-        talk_description: "Follow me in a real use case of Apollo and Redux Toolkit. 
-        <br /> <br />
-        A look at the challenges, wins and discoveries we had during one of our most ambitious projects, the migration of Results at Maze, an app the helps user researchers to collect insights and helps them to launch products with more confidence."
-        talk_video_url:
-        speakers:
-          speaker_9: *JepserBernardino
-
-
-      AccessibilityInReactApplication:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Accessibility in React Application"
-        talk_description: "If you are familiar with accessibility in HTML and CSS, then you are good to go in a React application as well. 
-        <br />Most of the rules still apply, but you may need to write it a little differently, and consider other things in addition, which we will discuss in more detail in this talk."
-        talk_video_url:
-        speakers:
-          speaker_3: *JuliaUndeutsch
-
-
-      ElevateYourReactWorkflowWithFigma:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Elevate your React workflow with Figma"
-        talk_description: "Learn how even the most seasoned front end developers can improve their workflows by harnessing the power of Figma! 
-        <br />In this talk, we'll cover essential workflows such as navigating large and evolving files, extracting content and styles, as well as a deep dive into Figma's developer mode. 
-        <br />We’ll learn how variables and components work in Figma and how they can act as a shared language and source of truth for your component library. We’ll see how to prototype directly in Figma (and discuss why you might want to!). Plus, we'll explore some great plugins that can enhance your developer workflow. 
-        <br /> <br />
-        Whether you’re new to Figma or looking to deepen your skills, this session will provide a range of tips to boost your productivity."
-        talk_video_url:
-        speakers:
-          speaker_13: *KellyKing
-      
       ADecadeReactsRhapsodyOfLife:
-        item_type: "talk"
+        item_type: "keynote"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2024-10-25T09:45+02:00
+        end_datetime: 2024-10-25T10:30+02:00
         talk_title: "A Decade React's Rhapsody of Life"
         talk_description: "Join me in celebrating the decade-long journey of React—a framework that has revolutionized front-end development.
           <br /> <br />
@@ -401,44 +284,51 @@ days:
         speakers:
           speaker_10: *MatheusAlbuquerque
 
-
-      DoFrontendDevsDreamOfBackendFunctions:
+      ReactServerComponents101:        
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Do Frontend Devs dream of Backend functions?"
-        talk_description: "When the concepts of SSR, SSG, and Hydration seemed well-established and standard, new frameworks bring us an increasingly full-stack view of frontend development and communication with the backend. <br />
-        <br />
-        In this talk, using the innovations of React 19 and Next 14 as a narrative device, we will embark on a journey to discover new rendering techniques, performance improvements, and a new perspective on communication with the backend. 
-        <br />This will help us choose the next framework with a clear understanding of what we need (and don’t need)!"
+        start_datetime: 2024-10-25T10:30+02:00
+        end_datetime: 2024-10-25T11:15+02:00
+        talk_title: "React Server Components 101"
+        talk_description: "React Server Components (RSC), first introduced as an RFC (Request For Comments) in December 2020, is shaping up to be a big change for React and the way we build web apps.
+        <br /> <br />
+          In this talk, we will discover React Server Components (RSC), an exciting new feature that will have huge implications on page load performance, bundle size, and how we write React applications in the near future.
+          <br /> <br />
+          We'll explore RSC's architecture and its core concepts, along with practical use-cases illustrating RSC implementation and benefits.
+          <br /> <br />
+          You will learn how to write tomorrow's React Applications with Server Components and understand in depth what the React team has been working on."
         talk_video_url:
         speakers:
-          speaker_2: *MatteoManchi
+          speaker_1: *KawtarChoubari
 
-      SuperchargeYourReactSideProjectWithFirebase:
+      ElevateYourReactWorkflowWithFigma:
         item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
-        talk_title: "Supercharge your React side project with Firebase"
-        talk_description: "Have you ever built a side project or thought about building your own startup?
-          <br /><br />
-          One of the most important things is fast and secure development. And here comes Firebase in combination with React into the game. I will explain how Firebase + React allows me to run a software company at the age of 17 by myself and how you can leverage the tools provided by Firebase to have a better developer experience, more secure react apps, and faster results.
-          <br /><br />
-          All principles and technologies you will learn about in this talk can be applied immediately in your side projects!"
+        track: *track_2
+        start_datetime: 2024-10-25T10:30+02:00
+        end_datetime: 2024-10-25T11:15+02:00
+        talk_title: "Elevate your React workflow with Figma"
+        talk_description: "Learn how even the most seasoned front end developers can improve their workflows by harnessing the power of Figma! 
+        <br />In this talk, we'll cover essential workflows such as navigating large and evolving files, extracting content and styles, as well as a deep dive into Figma's developer mode. 
+        <br />We’ll learn how variables and components work in Figma and how they can act as a shared language and source of truth for your component library. We’ll see how to prototype directly in Figma (and discuss why you might want to!). Plus, we'll explore some great plugins that can enhance your developer workflow. 
+        <br /> <br />
+        Whether you’re new to Figma or looking to deepen your skills, this session will provide a range of tips to boost your productivity."
         talk_video_url:
         speakers:
-          speaker_6: *TimKumpat
+          speaker_13: *KellyKing
 
-
+      coffee_break_morning:
+        item_type: "service"
+        start_datetime: 2024-10-25T11:15+02:00
+        end_datetime: 2024-10-25T11:45+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
 
 
       ThinkYourReactNativeAppCan’tRunOnTheWeb?ThinkAgain!:
         item_type: "talk"
         track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        start_datetime: 2024-10-25T11:45+02:00
+        end_datetime: 2024-10-25T12:30+02:00
         talk_title: "Think Your React Native App Can’t Run on the Web? Think Again!"
         talk_description: "Curious about adapting React Native for the web? Ready to embark on a journey of discovery? In this session, I’ll take you through the exciting process of transforming a successful e-commerce React Native application for the web using React Native Web.
                   <br /> <br />
@@ -450,13 +340,12 @@ days:
         speakers:
           speaker_8: *NicolaZaghini
 
-
-      
+            
       AIForReactDevelopersOpportunities,Learning,AndInnovation:
         item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T09:30+02:00
-        # end_datetime: 2022-05-19T10:25+02:00
+        track: *track_2
+        start_datetime: 2024-10-25T11:45+02:00
+        end_datetime: 2024-10-25T12:30+02:00
         talk_title: "AI for React Developers: Opportunities, Learning, and Innovation"
         talk_description: "Artificial Intelligence (AI) is now a must-have in software development, and the demand for AI engineers is rising through the roof. As a React developer, it is a good chance to grow and expand. <br />
         Many React developers might wonder: 'What do I need to know about AI? and do I have what it takes?''
@@ -468,3 +357,142 @@ days:
         talk_video_url:
         speakers:
           speaker_11: *AlexandraSpalato
+
+
+      DoFrontendDevsDreamOfBackendFunctions:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-10-25T12:30+02:00
+        end_datetime: 2024-10-25T13:15+02:00
+        talk_title: "Do Frontend Devs dream of Backend functions?"
+        talk_description: "When the concepts of SSR, SSG, and Hydration seemed well-established and standard, new frameworks bring us an increasingly full-stack view of frontend development and communication with the backend. <br />
+        <br />
+        In this talk, using the innovations of React 19 and Next 14 as a narrative device, we will embark on a journey to discover new rendering techniques, performance improvements, and a new perspective on communication with the backend. 
+        <br />This will help us choose the next framework with a clear understanding of what we need (and don’t need)!"
+        talk_video_url:
+        speakers:
+          speaker_2: *MatteoManchi
+
+      HowToBuildCrossPlatformDesignSystemsInReactNativeMusixmatch’sCaseStudy:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2024-10-25T12:30+02:00
+        end_datetime: 2024-10-25T13:15+02:00
+        talk_title: "How to build cross-platform design systems in React Native: Musixmatch’s case study"
+        talk_description: "Nowadays, it’s quite common to use a design system to speed up the development of web interfaces. 
+        <br />Depending on the needs of a company and its products, however, it may be necessary to scale it to other platforms such as iOS and Android, while still maintaining consistency across all of them. 
+        <br />How can a design system scale across multiple platforms while keeping the codebase easy to manage? What should the entire tech-stack look like to support this? And most importantly, how can the user experience be consistent despite each platform having different standard components? 
+        <br /> <br /> We will show how we answered to these questions by presenting Ritmo, the Musixmatch’s cross-platform design system we developed in React Native."
+        talk_video_url:
+        speakers:
+          speaker_12: *AndreaZilibotti
+     
+      lunch_break:
+        item_type: "service"
+        start_datetime: 2024-10-25T13:15+02:00
+        end_datetime: 2024-10-25T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+
+      lightning_talks:
+        item_type: "service"
+        start_datetime: 2024-10-25T14:30+02:00
+        end_datetime: 2024-10-25T15:00+02:00
+        talk_title: "Lightning talks"
+
+
+      DesignSystemsAdventuresWithReactAndTypeScript:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-10-25T15:00+02:00
+        end_datetime: 2024-10-25T15:45+02:00
+        talk_title: "Design systems adventures with React and TypeScript"
+        talk_description: "Creating a Design System is a challenge that involves many different disciplines. 
+        <br /> <br />In this talk, we will specifically explore the technical aspects and see which tools can help implement a React Design System. <br /> 
+        During the talk, we will also look at a concrete use case: the Bento Design System, created and maintained by buildo (https://bento-ds.com)"
+        talk_video_url:
+        speakers:
+          speaker_4: *GabrielePetronella
+
+      MultithreadingInReactAGuideToWebWorkers:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2024-10-25T15:00+02:00
+        end_datetime: 2024-10-25T15:45+02:00
+        talk_title: "Multithreading in React: A guide to Web Workers"
+        talk_description: "JavaScript as a single threaded language is unable to maximise the full potential of our CPUs, but there might be a solution: Web Workers. <br /> <br />
+          Let's go into a demonstration of how you can add Web Workers into your React application to enable the run of processes in the background while leveraging its pros and cons."
+        talk_video_url:
+        speakers:
+          speaker_5: *DaniColl
+
+    
+      coffee_break_afternoon:
+        item_type: "service"
+        start_datetime: 2024-10-25T15:45+02:00
+        end_datetime: 2024-10-25T16:15+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+
+
+      AccessibilityInReactApplication:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-10-25T16:15+02:00
+        end_datetime: 2024-10-25T17:00+02:00
+        talk_title: "Accessibility in React Application"
+        talk_description: "If you are familiar with accessibility in HTML and CSS, then you are good to go in a React application as well. 
+        <br />Most of the rules still apply, but you may need to write it a little differently, and consider other things in addition, which we will discuss in more detail in this talk."
+        talk_video_url:
+        speakers:
+          speaker_3: *JuliaUndeutsch
+
+      SuperchargeYourReactSideProjectWithFirebase:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2024-10-25T16:15+02:00
+        end_datetime: 2024-10-25T17:00+02:00
+        talk_title: "Supercharge your React side project with Firebase"
+        talk_description: "Have you ever built a side project or thought about building your own startup?
+          <br /><br />
+          One of the most important things is fast and secure development. And here comes Firebase in combination with React into the game. I will explain how Firebase + React allows me to run a software company at the age of 17 by myself and how you can leverage the tools provided by Firebase to have a better developer experience, more secure react apps, and faster results.
+          <br /><br />
+          All principles and technologies you will learn about in this talk can be applied immediately in your side projects!"
+        talk_video_url:
+        speakers:
+          speaker_6: *TimKumpat
+
+
+      TheMagicBehindTheReactCompiler:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-10-25T17:00+02:00
+        end_datetime: 2024-10-25T17:45+02:00
+        talk_title: "The magic behind the React compiler"
+        talk_description: "Every React developer is used to dealing with its render mechanism, trying to avoid unnecessary re-rendering using memoization techniques like useMemo and useCallback. But this will be a thing of the past thanks to the React compiler, a brand-new build tool that optimizes our app for us. 
+        <br /> <br />
+        In this talk, we will take a deep dive into how the React compiler works under the hood and how it will enhances our code cache management in many different ways."
+        talk_video_url:
+        speakers:
+          speaker_7: *GiuseppeFunicello
+
+
+      TheStateManagementRollercoaster:
+        item_type: "talk"
+        track: *track_2
+        start_datetime: 2024-10-25T17:00+02:00
+        end_datetime: 2024-10-25T17:45+02:00
+        talk_title: "The State Management Rollercoaster"
+        talk_description: "Follow me in a real use case of Apollo and Redux Toolkit. 
+        <br /> <br />
+        A look at the challenges, wins and discoveries we had during one of our most ambitious projects, the migration of Results at Maze, an app the helps user researchers to collect insights and helps them to launch products with more confidence."
+        talk_video_url:
+        speakers:
+          speaker_9: *JepserBernardino
+
+
+      closing:
+        item_type: "service"
+        start_datetime: 2024-10-25T17:45+02:00
+        end_datetime: 2024-10-25T18:00+02:00
+        talk_title: "Closing by GrUSP - See you next year!"

@@ -9,9 +9,9 @@ speaker_1: &KawtarChoubari
   speaker_name: Kawtar Choubari
   speaker_pic_filename: KawtarChoubari.jpg
   speaker_role: "TypeScript Developer @ Alobees"
-  speaker_bio: "I'm a Full-Time Software Engineer, where my passion for Front-End development shines through my expertise in JavaScript, TypeScript, ReactJS, and Next.js. 
+  speaker_bio: "I'm a Full-Time Software Engineer, where my passion for Front-End development shines through my expertise in JavaScript, TypeScript, ReactJS, and Next.js.
   <br /> <br />
-  I also thrives as a part-time Content Creator, YouTuber, and Open Source Contributor, creating educational content that reflects my love for frontend technologies. 
+  I also thrives as a part-time Content Creator, YouTuber, and Open Source Contributor, creating educational content that reflects my love for frontend technologies.
   <br />
   <br />Dedicated to community enrichment, I contribute to tech events and delivers impactful workshops and hands-on labs on my expertise."
   speaker_github_url: "https://github.com/choubari"
@@ -26,7 +26,7 @@ speaker_2: &MatteoManchi
   speaker_name: Matteo Manchi
   speaker_pic_filename: MatteoManchi.png
   speaker_role: "CEO @ Impronta Advance"
-  speaker_bio: "I am a community-addicted enthusiast from the very beginning: since its founding in 2013, I have been the community manager of RomaJS, dedicating part of my time to creating environments for sharing and technical dissemination. 
+  speaker_bio: "I am a community-addicted enthusiast from the very beginning: since its founding in 2013, I have been the community manager of RomaJS, dedicating part of my time to creating environments for sharing and technical dissemination.
   <br />I loves JavaScript in all its forms, as well as PHP.
 <br /> <br />
 In my free time, he is the CEO of Impronta Advance, a trainer, a consultant on web architectures, a speaker, and in my spare time, I study and experiments live on Twitch."
@@ -73,8 +73,8 @@ speaker_5: &DaniColl
   speaker_name: Dani Coll
   speaker_pic_filename: DaniColl.jpg
   speaker_role: "Senior Frontend Engineer @ Dynatrace"
-  speaker_bio: "I’m a Frontend Senior Software Engineer for Platform Apps at Dynatrace. 
-  <br />I started my tech journey on a startup 8 years ago as a mobile developer, going through a couple more consultant companies in the process I found my place at Dynatrace on 2020. 
+  speaker_bio: "I’m a Frontend Senior Software Engineer for Platform Apps at Dynatrace.
+  <br />I started my tech journey on a startup 8 years ago as a mobile developer, going through a couple more consultant companies in the process I found my place at Dynatrace on 2020.
   <br /> Moving out from the Product Owner role I took last year I embark the path as a Tech Evangelist and I’m eager to share the lessons I learned with all of you."
   speaker_github_url: "https://github.com/dani-coll"
   speaker_twitter_url: ""
@@ -89,9 +89,9 @@ speaker_6: &TimKumpat
   speaker_name: Tim Kumpat
   speaker_pic_filename: TimKumpat.png
   speaker_role: "Founder @ axxtas"
-  speaker_bio: "At the age of 13, I started teaching myself how to build websites. 
-  <br />At 15, I founded my first company Jump Webdesign (B2B Web development for clients). 
-  <br />At 17 I did a software engineering summer internship @ Nordcloud, an IBM company and also started the brand Jump Apps (B2C App development). 
+  speaker_bio: "At the age of 13, I started teaching myself how to build websites.
+  <br />At 15, I founded my first company Jump Webdesign (B2B Web development for clients).
+  <br />At 17 I did a software engineering summer internship @ Nordcloud, an IBM company and also started the brand Jump Apps (B2C App development).
   <br /> <br />After my internship, I joined Nordcloud part-time. Currently, I'm in my last year of high school and work in addition to my normal school time up to 14 hours per day on either Jump Apps, Jump Webdesign, or Nordcloud."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/TimKumpat"
@@ -124,7 +124,7 @@ speaker_8: &NicolaZaghini
   speaker_role: "Principal Engineer @ Phorest"
   speaker_bio: "I started as a mobile developer before the first iOS SDK was invented and have since led teams building apps for major airlines around the world. In 2018, I joined the React and Reactive community, recognizing its potential to unify platforms and its unparalleled speed of development and delivery.
   <br /> <br />
-  Now, as a Principal Engineer at Phorest, I’ve helped scale our mobile proposition to over 4000 apps. 
+  Now, as a Principal Engineer at Phorest, I’ve helped scale our mobile proposition to over 4000 apps.
   <br /> Recently, I’ve embraced React Native Web to further unify our platforms. I’m excited to share my journey and insights with you!"
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/nzaghini"
@@ -154,8 +154,8 @@ speaker_10: &MatheusAlbuquerque
   speaker_pic_filename: MatheusAlbuquerque.jpg
   speaker_role: "Senior FE EngineerFront-End @ Medallia - GDE"
   speaker_bio: "I'm a Sr. Front-End Engineer at Medallia, building their surveys platform and helping them shape the customer experience market with React and a Google Developer Expert in Web Performance.
-  <br /> <br /> 
-  My areas of interest include React and its ecosystem, JS and compile-to-JS languages, DX, and perceived performance optimization. 
+  <br /> <br />
+  My areas of interest include React and its ecosystem, JS and compile-to-JS languages, DX, and perceived performance optimization.
   <br /><br />
   Aside from public speaking about these, I also volunteers at TechLabs, teaching front-end development."
   speaker_github_url: "https://github.com/ythecombinator"
@@ -170,7 +170,7 @@ speaker_11: &AlexandraSpalato
   speaker_name: Alexandra Spalato
   speaker_pic_filename: AlexandraSpalato.png
   speaker_role: "Independent AI Expert"
-  speaker_bio: "I'm a a Full-stack AI Developer and Product Maker based in Madrid. 
+  speaker_bio: "I'm a a Full-stack AI Developer and Product Maker based in Madrid.
   With a background spanning web development and business, she specializes in bridging AI innovation with beautiful design.
   <br /> <br />
         As an Indie Hacker, I create AI-powered applications and micro SaaS products.<br />
@@ -214,23 +214,22 @@ speaker_11: &AlexandraSpalato
     speaker_linkedin_url: "https://www.linkedin.com/in/kellydanielleking/"
     speaker_mastodon_url: ""
     is_mc: false
-    
 
 
 speakers:
-  speaker_12: *AndreaZilibotti
-  speaker_11: *AlexandraSpalato
+  speaker_10: *MatheusAlbuquerque
+  speaker_9: *JepserBernardino
   speaker_1: *KawtarChoubari
   speaker_5: *DaniColl
-  speaker_4: *GabrielePetronella
   speaker_7: *GiuseppeFunicello
-  speaker_9: *JepserBernardino
-  speaker_3: *JuliaUndeutsch
   speaker_13: *KellyKing
-  speaker_10: *MatheusAlbuquerque
-  speaker_2: *MatteoManchi
-  speaker_8: *NicolaZaghini
   speaker_6: *TimKumpat
+  speaker_2: *MatteoManchi
+  speaker_4: *GabrielePetronella
+  speaker_11: *AlexandraSpalato
+  speaker_3: *JuliaUndeutsch
+  speaker_8: *NicolaZaghini
+  speaker_12: *AndreaZilibotti
 
 
 tracks:
@@ -240,7 +239,7 @@ tracks:
   track_2: &track_2
     id: 2
     title: "Track 2"
-  
+
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
 #   "service" -- coffee break, lunch break, etc
@@ -279,12 +278,12 @@ days:
           <br /> <br />
           Looking ahead, we'll discuss ongoing efforts like the Activity component, optimistic state updates, and more advanced stuff, like the optimization compiler and the recent improvements to React Native's JS engine.
           <br /> <br />
-          Let's embrace a decade of React and the endless possibilities it holds!"    
+          Let's embrace a decade of React and the endless possibilities it holds!"
         talk_video_url:
         speakers:
           speaker_10: *MatheusAlbuquerque
 
-      ReactServerComponents101:        
+      ReactServerComponents101:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-10-25T10:30+02:00
@@ -307,9 +306,9 @@ days:
         start_datetime: 2024-10-25T10:30+02:00
         end_datetime: 2024-10-25T11:15+02:00
         talk_title: "Elevate your React workflow with Figma"
-        talk_description: "Learn how even the most seasoned front end developers can improve their workflows by harnessing the power of Figma! 
-        <br />In this talk, we'll cover essential workflows such as navigating large and evolving files, extracting content and styles, as well as a deep dive into Figma's developer mode. 
-        <br />We’ll learn how variables and components work in Figma and how they can act as a shared language and source of truth for your component library. We’ll see how to prototype directly in Figma (and discuss why you might want to!). Plus, we'll explore some great plugins that can enhance your developer workflow. 
+        talk_description: "Learn how even the most seasoned front end developers can improve their workflows by harnessing the power of Figma!
+        <br />In this talk, we'll cover essential workflows such as navigating large and evolving files, extracting content and styles, as well as a deep dive into Figma's developer mode.
+        <br />We’ll learn how variables and components work in Figma and how they can act as a shared language and source of truth for your component library. We’ll see how to prototype directly in Figma (and discuss why you might want to!). Plus, we'll explore some great plugins that can enhance your developer workflow.
         <br /> <br />
         Whether you’re new to Figma or looking to deepen your skills, this session will provide a range of tips to boost your productivity."
         talk_video_url:
@@ -333,14 +332,14 @@ days:
         talk_description: "Curious about adapting React Native for the web? Ready to embark on a journey of discovery? In this session, I’ll take you through the exciting process of transforming a successful e-commerce React Native application for the web using React Native Web.
                   <br /> <br />
           We’ll explore the initial steps of evaluating feasibility, delve into the core technologies for a unified codebase, and discuss the challenges faced, including managing platform-specific code. Through hypothetical conversations with my CTO, you’ll gain insights into our pivotal decisions and distribution strategies for seamless deployment.
-          <br /> <br /> 
+          <br /> <br />
 
           Spoiler alert: it has been an incredible success!"
         talk_video_url:
         speakers:
           speaker_8: *NicolaZaghini
 
-            
+
       AIForReactDevelopersOpportunities,Learning,AndInnovation:
         item_type: "talk"
         track: *track_2
@@ -367,7 +366,7 @@ days:
         talk_title: "Do Frontend Devs dream of Backend functions?"
         talk_description: "When the concepts of SSR, SSG, and Hydration seemed well-established and standard, new frameworks bring us an increasingly full-stack view of frontend development and communication with the backend. <br />
         <br />
-        In this talk, using the innovations of React 19 and Next 14 as a narrative device, we will embark on a journey to discover new rendering techniques, performance improvements, and a new perspective on communication with the backend. 
+        In this talk, using the innovations of React 19 and Next 14 as a narrative device, we will embark on a journey to discover new rendering techniques, performance improvements, and a new perspective on communication with the backend.
         <br />This will help us choose the next framework with a clear understanding of what we need (and don’t need)!"
         talk_video_url:
         speakers:
@@ -379,14 +378,14 @@ days:
         start_datetime: 2024-10-25T12:30+02:00
         end_datetime: 2024-10-25T13:15+02:00
         talk_title: "How to build cross-platform design systems in React Native: Musixmatch’s case study"
-        talk_description: "Nowadays, it’s quite common to use a design system to speed up the development of web interfaces. 
-        <br />Depending on the needs of a company and its products, however, it may be necessary to scale it to other platforms such as iOS and Android, while still maintaining consistency across all of them. 
-        <br />How can a design system scale across multiple platforms while keeping the codebase easy to manage? What should the entire tech-stack look like to support this? And most importantly, how can the user experience be consistent despite each platform having different standard components? 
+        talk_description: "Nowadays, it’s quite common to use a design system to speed up the development of web interfaces.
+        <br />Depending on the needs of a company and its products, however, it may be necessary to scale it to other platforms such as iOS and Android, while still maintaining consistency across all of them.
+        <br />How can a design system scale across multiple platforms while keeping the codebase easy to manage? What should the entire tech-stack look like to support this? And most importantly, how can the user experience be consistent despite each platform having different standard components?
         <br /> <br /> We will show how we answered to these questions by presenting Ritmo, the Musixmatch’s cross-platform design system we developed in React Native."
         talk_video_url:
         speakers:
           speaker_12: *AndreaZilibotti
-     
+
       lunch_break:
         item_type: "service"
         start_datetime: 2024-10-25T13:15+02:00
@@ -407,8 +406,8 @@ days:
         start_datetime: 2024-10-25T15:00+02:00
         end_datetime: 2024-10-25T15:45+02:00
         talk_title: "Design systems adventures with React and TypeScript"
-        talk_description: "Creating a Design System is a challenge that involves many different disciplines. 
-        <br /> <br />In this talk, we will specifically explore the technical aspects and see which tools can help implement a React Design System. <br /> 
+        talk_description: "Creating a Design System is a challenge that involves many different disciplines.
+        <br /> <br />In this talk, we will specifically explore the technical aspects and see which tools can help implement a React Design System. <br />
         During the talk, we will also look at a concrete use case: the Bento Design System, created and maintained by buildo (https://bento-ds.com)"
         talk_video_url:
         speakers:
@@ -426,7 +425,7 @@ days:
         speakers:
           speaker_5: *DaniColl
 
-    
+
       coffee_break_afternoon:
         item_type: "service"
         start_datetime: 2024-10-25T15:45+02:00
@@ -441,7 +440,7 @@ days:
         start_datetime: 2024-10-25T16:15+02:00
         end_datetime: 2024-10-25T17:00+02:00
         talk_title: "Accessibility in React Application"
-        talk_description: "If you are familiar with accessibility in HTML and CSS, then you are good to go in a React application as well. 
+        talk_description: "If you are familiar with accessibility in HTML and CSS, then you are good to go in a React application as well.
         <br />Most of the rules still apply, but you may need to write it a little differently, and consider other things in addition, which we will discuss in more detail in this talk."
         talk_video_url:
         speakers:
@@ -469,7 +468,7 @@ days:
         start_datetime: 2024-10-25T17:00+02:00
         end_datetime: 2024-10-25T17:45+02:00
         talk_title: "The magic behind the React compiler"
-        talk_description: "Every React developer is used to dealing with its render mechanism, trying to avoid unnecessary re-rendering using memoization techniques like useMemo and useCallback. But this will be a thing of the past thanks to the React compiler, a brand-new build tool that optimizes our app for us. 
+        talk_description: "Every React developer is used to dealing with its render mechanism, trying to avoid unnecessary re-rendering using memoization techniques like useMemo and useCallback. But this will be a thing of the past thanks to the React compiler, a brand-new build tool that optimizes our app for us.
         <br /> <br />
         In this talk, we will take a deep dive into how the React compiler works under the hood and how it will enhances our code cache management in many different ways."
         talk_video_url:
@@ -483,7 +482,7 @@ days:
         start_datetime: 2024-10-25T17:00+02:00
         end_datetime: 2024-10-25T17:45+02:00
         talk_title: "The State Management Rollercoaster"
-        talk_description: "Follow me in a real use case of Apollo and Redux Toolkit. 
+        talk_description: "Follow me in a real use case of Apollo and Redux Toolkit.
         <br /> <br />
         A look at the challenges, wins and discoveries we had during one of our most ambitious projects, the migration of Results at Maze, an app the helps user researchers to collect insights and helps them to launch products with more confidence."
         talk_video_url:

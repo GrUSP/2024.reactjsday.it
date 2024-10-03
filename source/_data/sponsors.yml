@@ -41,6 +41,10 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
 bronze:
+  sponsor1:
+    name: "dynatrace"
+    logo_filename: "dynatrace.svg"
+    site_url: "https://careers.dynatrace.com/"
   sponsor2:
     name: "stickermule"
     logo_filename: "stickermule.svg"

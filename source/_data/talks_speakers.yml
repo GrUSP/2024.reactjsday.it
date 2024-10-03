@@ -215,6 +215,14 @@ speaker_11: &AlexandraSpalato
     speaker_mastodon_url: ""
     is_mc: false
 
+  speaker_14: &ArisMarkogiannakis
+    speaker_in_speaker_lists: true
+    speaker_name: Aris Markogiannakis
+    speaker_pic_filename: ArisMarkogiannakis.png
+    speaker_role: "MASTER OF CEREMONIES"
+    speaker_bio: ""
+    is_mc: true
+
 
 speakers:
   speaker_10: *MatheusAlbuquerque
@@ -230,6 +238,7 @@ speakers:
   speaker_3: *JuliaUndeutsch
   speaker_8: *NicolaZaghini
   speaker_12: *AndreaZilibotti
+  speaker_14: *ArisMarkogiannakis
 
 
 tracks:

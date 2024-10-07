@@ -89,10 +89,9 @@ speaker_6: &TimKumpat
   speaker_name: Tim Kumpat
   speaker_pic_filename: TimKumpat.png
   speaker_role: "Founder @ axxtas"
-  speaker_bio: "At the age of 13, I started teaching myself how to build websites.
-  <br />At 15, I founded my first company Jump Webdesign (B2B Web development for clients).
-  <br />At 17 I did a software engineering summer internship @ Nordcloud, an IBM company and also started the brand Jump Apps (B2C App development).
-  <br /> <br />After my internship, I joined Nordcloud part-time. Currently, I'm in my last year of high school and work in addition to my normal school time up to 14 hours per day on either Jump Apps, Jump Webdesign, or Nordcloud."
+  speaker_bio: "I'm a 18 year old Software Engineer and Founder from Munich, Germany. <br /><br />
+  At the age of 13, I taught myself how to code and at the age of 15 I founded my first software company, which develops custom software for businesses as well as mobile apps for consumers. 
+  <br /> <br /> I previously worked at Nordcloud, an IBM company."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/TimKumpat"
   speaker_instagram_url: ""
@@ -463,7 +462,8 @@ days:
         talk_title: "Supercharge your React side project with Firebase"
         talk_description: "Have you ever built a side project or thought about building your own startup?
           <br /><br />
-          One of the most important things is fast and secure development. And here comes Firebase in combination with React into the game. I will explain how Firebase + React allows me to run a software company at the age of 17 by myself and how you can leverage the tools provided by Firebase to have a better developer experience, more secure react apps, and faster results.
+          One of the most important things is fast and secure development. And here comes Firebase in combination with React into the game. <br />
+          I will explain how Firebase + React allows me to run a software company at the age of 18 by myself and how you can leverage the tools provided by Firebase to have a better developer experience, more secure react apps, and faster results.
           <br /><br />
           All principles and technologies you will learn about in this talk can be applied immediately in your side projects!"
         talk_video_url:

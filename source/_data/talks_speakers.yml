@@ -90,7 +90,7 @@ speaker_6: &TimKumpat
   speaker_pic_filename: TimKumpat.png
   speaker_role: "Founder @ axxtas"
   speaker_bio: "I'm a 18 year old Software Engineer and Founder from Munich, Germany. <br /><br />
-  At the age of 13, I taught myself how to code and at the age of 15 I founded my first software company, which develops custom software for businesses as well as mobile apps for consumers. 
+  At the age of 13, I taught myself how to code and at the age of 15 I founded my first software company, which develops custom software for businesses as well as mobile apps for consumers.
   <br /> <br /> I previously worked at Nordcloud, an IBM company."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/TimKumpat"
@@ -265,7 +265,7 @@ days:
         item_type: "service"
         start_datetime: 2024-10-25T09:00+02:00
         end_datetime: 2024-10-25T09:30+02:00
-        talk_title: "Check-in"
+        talk_title: "Check-in & Welcome Coffee - collect your badge and enjoy a coffee"
 
       opening:
         item_type: "service"

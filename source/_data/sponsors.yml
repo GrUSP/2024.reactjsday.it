@@ -46,6 +46,10 @@ bronze:
     logo_filename: "dynatrace.svg"
     site_url: "https://careers.dynatrace.com/"
   sponsor2:
+    name: "Musixmatch"
+    logo_filename: "musixmatch.svg"
+    site_url: "https://www.musixmatch.com/"
+  sponsor3:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"

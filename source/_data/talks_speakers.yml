@@ -223,6 +223,8 @@ speaker_11: &AlexandraSpalato
     is_mc: true
 
 
+
+
 speakers:
   speaker_10: *MatheusAlbuquerque
   speaker_9: *JepserBernardino
@@ -238,6 +240,7 @@ speakers:
   speaker_8: *NicolaZaghini
   speaker_12: *AndreaZilibotti
   speaker_14: *ArisMarkogiannakis
+  
 
 
 tracks:
